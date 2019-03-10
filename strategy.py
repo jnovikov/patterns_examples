@@ -41,8 +41,8 @@ class Application(object):
         return s
 
 
-log1 = FileLogger("log.txt")
-a = Application(log1)
-print(a.calc_sum(1, 2))
-a.logger = ConsoleLogger()
-print(a.calc_sum(-1, 1))
+# log1 = FileLogger("log.txt")
+# a = Application(log1)
+# print(a.calc_sum(1, 2))
+# a.logger = ConsoleLogger()
+# print(a.calc_sum(-1, 1))
